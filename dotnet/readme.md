@@ -1,7 +1,7 @@
 <h1>Nuevo proyecto: </h1>
 
 ```
-dotnet new webapi -o Nombre proyecto 
+dotnet new webapi -o Nombre_proyecto 
 ```
 
 <h1>Proyecto existente</h1>
