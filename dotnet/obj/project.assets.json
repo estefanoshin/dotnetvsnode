@@ -12071,23 +12071,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\estef\\.nuget\\packages\\": {},
+    "C:\\Users\\eshin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Workspace\\Node\\dotnetvsnode\\dotnet\\dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\eshin\\Desktop\\dotnetvsnode\\dotnet\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "H:\\Workspace\\Node\\dotnetvsnode\\dotnet\\dotnet.csproj",
-      "packagesPath": "C:\\Users\\estef\\.nuget\\packages\\",
-      "outputPath": "H:\\Workspace\\Node\\dotnetvsnode\\dotnet\\obj\\",
+      "projectPath": "C:\\Users\\eshin\\Desktop\\dotnetvsnode\\dotnet\\dotnet.csproj",
+      "packagesPath": "C:\\Users\\eshin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eshin\\Desktop\\dotnetvsnode\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\estef\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\eshin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
