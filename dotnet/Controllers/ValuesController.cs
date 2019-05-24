@@ -4,25 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Web;
-
 namespace dotnet.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private String url = "http://www.e-galenomovil.com.ar/mobile-rest-services/centros/";
-
         // GET api/values
         [HttpGet]
-        public ActionResult<String> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            HttpClient http = new HttpClient();
-            return http.GetAsync(url).Result.Content.ReadAsStringAsync().Result;
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
@@ -49,7 +41,5 @@ namespace dotnet.Controllers
         public void Delete(int id)
         {
         }
-
-
     }
 }
